@@ -18,7 +18,7 @@ along with BeansBooks; if not, email info@beansbooks.com.
 */
 
 // V2Item - TODO - Write a new ORM or remove altogether.
-class Database_PostgreSQL extends Kohana_Database_MySQL {
+class Database_PostgreSQL extends Kohana_Database_PostgreSQL {
 
 	// This is a temporary override that will eventually be superceded by an upgrade to 
 	// the database module.
